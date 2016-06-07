@@ -1,4 +1,6 @@
 <?php
+namespace hey
+
 class WaterAnimal extends AnimalAbstr implements AnimalInter
 {
     private $eat;
