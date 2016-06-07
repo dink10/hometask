@@ -1,4 +1,6 @@
 <?php
+namespace hey
+
 interface AnimalInter
 {
 public function name();
