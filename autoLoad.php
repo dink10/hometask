@@ -1,6 +1,6 @@
 <?php
 
-function __autoload($className)
+function autoload($className)
 {
     $className = ltrim($className, '\\');
     $fileName  = '';
@@ -14,3 +14,5 @@ function __autoload($className)
 
     require $fileName;
 }
+
+spl_autoload_register('autoload');
