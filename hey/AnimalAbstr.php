@@ -1,4 +1,6 @@
 <?php
+namespace hey
+
 abstract class AnimalAbstr
 {
 	
