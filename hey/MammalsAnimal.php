@@ -1,4 +1,5 @@
 <?php
+namespace hey
 class MammalsAnimal extends AnimalAbstr implements AnimalInter{
     private $eat;
     private $talk;
